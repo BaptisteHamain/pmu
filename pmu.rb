@@ -2,7 +2,7 @@ race = {}
 
 
 begin
-  puts race ? "Enter horse name or tape enter to finished !" :
+  puts race ? "Enter horse name or tape enter to finished !" : "Enter a horse"
   cheval = gets.chomp!
 
   race[cheval] = rand(1...100) if cheval != ""
